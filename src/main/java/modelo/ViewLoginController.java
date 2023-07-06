@@ -4,6 +4,7 @@
  */
 package modelo;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -33,7 +34,7 @@ public class ViewLoginController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }    
 
     @FXML
@@ -41,7 +42,9 @@ public class ViewLoginController implements Initializable {
     }
 
     @FXML
-    private void evenAction(ActionEvent event) {
+    private void evenAction(ActionEvent event) throws IOException  {
+        App.setRoot("ViewBienvenido");
+        
     }
     
 }
