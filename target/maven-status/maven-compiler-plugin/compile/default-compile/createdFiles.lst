@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 modelo\PrimaryController.class
 module-info.class
 modelo\App.class
 modelo\SecondaryController.class
+=======
+modelo/App.class
+modelo/PrimaryController.class
+module-info.class
+modelo/SecondaryController.class
+modelo/ViewLoginController.class
+>>>>>>> d832a9cbe3fbe81e039e1b538a85a544744ec0aa
