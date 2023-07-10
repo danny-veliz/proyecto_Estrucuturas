@@ -10,5 +10,5 @@ package Clases;
  */
 public enum opciones_Emoji {
     
-    
+    face,eyes,eyebrows,accessories,mouth
 }

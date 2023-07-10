@@ -20,7 +20,7 @@ public class face implements Comparable<face>{
     public static String url="src\\main\\resources\\images\\faces\\";
     private String nombre;
     private Image imagenFace;
-//    public static  LCDE<face> listaFace;
+
 
     public String getNombre() {
         return nombre;

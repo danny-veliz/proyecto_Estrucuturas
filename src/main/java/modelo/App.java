@@ -20,7 +20,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        listasImagenes.llenarLCDEface();
+        listasImagenes.CargarListas();
         scene = new Scene(loadFXML("ViewLogin"));
         stage.setScene(scene);
         stage.show();
