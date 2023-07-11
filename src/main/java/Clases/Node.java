@@ -12,21 +12,21 @@ import java.util.Objects;
  */
 public class Node<E> {
     
-     private E content;
+    private E content;
     private Node<E> next;
     private Node<E> previous;
     
-       public Node (E content) {
+    public Node (E content) {
         this.content = content;
         this.next = null;
         this.previous=null;
         
     }
-public Node (E content, Node<E> next) {
+    public Node (E content, Node<E> next) {
         this(content);
         this.next = next;
     }
- public E getContent() {
+    public E getContent() {
         return content;
     }
 
